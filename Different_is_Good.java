@@ -9,9 +9,7 @@ public class Daily4 {
 		char[] str = n.toCharArray();
 		int i,j,count=0;
 		if(nu>26)
-		{
 			System.out.println(-1);
-		}
 		else {
 		for(i=0;i<n.length();i++)
 		{
