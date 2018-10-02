@@ -2,24 +2,19 @@
 using namespace std;
 
 int main() {
-    long long int c=0,n,m,a,b,i;
+    	
+	long long int c=0,n,m,a,b,i;
 	cin>>n>>m;
 	cin>>a;
 	for(i=1;i<n;i++)
 	{
 	    cin>>b;
 	    if(b-a==2*m)
-	    {
-	        c=c+1;
-	    }
-	    else if(b-a>(2*m))
-	    {
-	        c=c+2;
-	       
-	    }
+	        c++;
+	    else if((b-a)>(2*m))
+	        c+=2;
 	    a=b;
 	}
-	c=c+2;
-	cout<<c;
+	cout<<c+2;
 	return 0;
 }
