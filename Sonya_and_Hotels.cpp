@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
-
+#define ll long long 
 int main() {
     	
-	long long int c=0,n,m,a,b,i;
+	ll int c=0,n,m,a,b,i;
 	cin>>n>>m;
 	cin>>a;
 	for(i=1;i<n;i++)
