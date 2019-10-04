@@ -1,15 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std ;
+#define ll long long
 int main()
 {
 	long long int t;
 	cin>>t;
 	while(t--)
 	{
-		long long int sum1=0,sum2=0;
+		ll sum1=0,sum2=0;
 		string s1,s2;
 		cin>>s1>>s2;
-		for(long long int i = 0 ; i < s1.size() ; i++ )
+		for(ll i = 0 ; i < s1.size() ; i++ )
 		{
 			sum1+=(s1[i]-'0');
 		}
