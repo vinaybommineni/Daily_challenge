@@ -24,5 +24,5 @@ public class Daily5 {
 		k=Math.abs(c)+Math.abs(r);
 		System.out.println(k);
 	}
-
+\\Hi chandu this is babu
 }
